@@ -1,8 +1,8 @@
 .venv/
 doc/html/
-/binary/
-/cache/
-/chroot/
+binary/
+cache/
+chroot/
 /.build/
 build.log
 chroot.files
