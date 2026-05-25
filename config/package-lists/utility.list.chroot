@@ -1,0 +1,339 @@
+#Title: Utility
+
+#Section: File management
+#Description: thunar
+gvfs-backends
+libglib2.0-bin
+gvfs-fuse
+jdupes
+libgphoto2-l10n
+libmtp-runtime
+plocate
+ooo-thumbnailer
+rename
+secure-delete
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
+trash-cli
+tree
+tumbler
+catfish
+#Alt: pcmanfm
+#Alt: gprename
+#Alt: thunar-gtkhash
+#Alt: nautilus
+#Alt: ooo-thumbnailer
+#Alt: gnome-sushi
+#Alt: gtkhash
+#Alt: ffmpegthumbnailer
+#Alt: tdfsb
+#Alt: cksfv
+#Alt: safe-rm
+#Alt: mmv
+#Alt: ranger
+#Alt: chkboot
+#Alt: reflex
+#Alt: fzf
+#Alt: ripgrep
+#Alt: fd-find
+#Alt: dupeguru
+#Alt: rdfind
+#Alt: nnn
+#Alt: httpdirfs
+#nautilus-sendto # bullseye only
+#nautilus-wipe # bullseye only
+#fsearch # sid only
+#nautilus-image-converter # bookworm only
+#gnome-split # bookworm only
+
+#Section: Desktop environment
+#Description: xfce4
+xfdesktop4
+xfwm4
+xfce4-session
+xfce4-notifyd
+xfce4-whiskermenu-plugin
+gmrun
+xfce4-panel
+xfce4-places-plugin
+xfce4-weather-plugin
+xfce4-netload-plugin
+xfce4-pulseaudio-plugin
+#Alt: plank
+#Alt: kupfer
+#Alt: gnome-pie
+#Alt: xfce4-appfinder
+#Alt: synapse
+#Alt: zeitgeist
+#Alt: zeitgeist-datahub
+#Alt: compton
+#Alt: jgmenu
+#compton-conf # bookworm only
+
+#Section: Archive management
+#Description: engrampa
+engrampa
+atool
+p7zip
+p7zip-full
+arj
+cabextract
+cpio
+lzip
+lzma
+lzop
+lzip
+unace
+unalz
+unrar-free
+rar
+unzip
+zip
+iat
+nrg2iso
+gzrt
+#Alt: file-roller
+#Alt: xarchiver
+#Alt: p7zip-rar
+#Alt: gztool
+#isomaster # bookworm only
+
+#Section: Password management/file/disk encryption
+#Description: keepassxc-full
+keepassxc-full
+seahorse
+seahorse-daemon
+gnome-keyring
+ssh-askpass-gnome
+libpam-gnome-keyring
+gnupg
+gnupg2
+pwgen
+cryptsetup
+cryptsetup-initramfs
+libblockdev-crypto3
+#Alt: keepassx
+#Alt: keepass2
+#Alt: qtpass
+#Alt: revelation
+#Alt: apg
+#Alt: tcplay
+#Alt: xkcdpass
+#Alt: pass
+#Alt: nss-passwords
+#Alt: tomb
+#Alt: gtkcrypto
+#Alt: luckyluks
+#Alt: passes-gtk
+#zulucrypt-gui # bookworm only
+#zulumount-gui # bookworm only
+#libzulucrypt-plugins # bookworm only
+
+#Section: Text editors
+#Description: mousepad
+#Description: nano
+mousepad
+nano
+vim-tiny
+#Alt: gnome-builder flatpak-builder python3-lxml python3-jedi
+#Alt: vim
+#Alt: vim-doc
+#Alt: vim-scripts
+#Alt: vim-addon-manager
+#Alt: focuswriter
+#Alt: ghostwriter
+#Alt: apostrophe
+#Alt: gedit
+#Alt: gedit-plugins
+#Alt: gedit-source-code-browser-plugin
+#Alt: geany
+#Alt: nfoview
+
+#Section: Sticky notes
+#xfce4-notes # experimental only
+#Alt: xpad
+
+#Section: Maps
+##Description: gnome-maps
+#Alt: gnome-maps
+#Alt: marble-qt
+#alt: marble-plugins
+#Alt: geoclue-2.0
+#Alt: josm
+#Alt: navit
+#Alt: gpsd
+#Alt: routino
+#Alt: mkgmapgui
+#Alt: mkgmap
+#Alt: gis-tasks
+#Alt: gpsprune
+#foxtrotgps # bookworm only
+
+#Section: Screenshots
+#Description: xfce4-screenshooter
+xfce4-screenshooter
+#Alt: scrot
+#Alt: gnome-screenshot
+#Alt: flameshot
+
+#Section: Clocks/timers
+#Description: alarm-clock-applet
+#Screenshot: alarm-clock-applet
+alarm-clock-applet
+tty-clock
+#Alt: gnome-clocks
+#Alt: dclock
+#Alt: stopwatch
+#Alt: xfce4-timer-plugin
+#Alt: screenruler
+#gtimer # bookworm only
+
+#Section: Calculators
+#Description: gnome-calculator
+#Screenshot: gnome-calculator
+gnome-calculator
+bc
+units
+#Alt: num-utils
+#gbase # sid only
+#speedcrunch # bookworm only
+#graphmonkey # bookworm only
+
+#Section: Terminal emulators
+#Description: xfce4-terminal
+xfce4-terminal
+#Alt: lxterminal
+#Alt: gnome-terminal
+#Alt: guake
+#Alt: terminator
+#Alt: rxvt-unicode
+#Alt: tilda
+#Alt: cool-retro-term
+
+#Section: Science
+#Alt: stellarium
+#Alt: wxmaxima
+#Alt: gramps
+#lightspeed # bullseye only
+
+#Section: Color management
+#Description: redshift-gtk
+redshift-gtk
+#Alt: workrave
+#safeeyes # bookworm only
+
+#Section: CD burning
+##Description: xfburn
+#Alt: xfburn
+#Alt: brasero
+#Alt: brasero-cdrkit
+#Alt: cdrdao
+
+#Section: Desktop configuration utilities
+xfce4-settings
+gnome-system-tools
+menulibre
+dconf-editor
+dconf-cli
+dconf-gsettings-backend
+#Alt: gnome-tweaks
+#Alt: gnome-settings-daemon
+
+#Section: Power management
+#Description: xfce4-power-manager
+xfce4-power-manager
+xfce4-battery-plugin
+tlp
+tlp-rdw
+radeontool
+vbetool
+powertop
+usbutils
+acpi
+acpi-support
+acpi-support-base
+fancontrol
+rfkill
+pm-utils
+#Alt: bumblebee
+#Alt: laptop-mode-tools
+#Alt: powerdebug
+#Alt: powerstat
+#Alt: i8kutils
+#Alt: usbtop
+#Alt: primus
+#Alt: hd-idle
+#cpufrequtils # bookworm only
+
+#Section: Character map/font viewer
+gucharmap
+gnome-font-viewer
+#Alt: font-manager
+#Alt: thunar-font-manager
+
+#Section: Spell checking/dictionaries
+hunspell
+hunspell-en-us
+hunspell-fr
+aspell
+aspell-fr
+hunspell-fr
+ispell
+iamerican
+ibritish
+ifrench-gut
+wfrench
+#Alt: xfce4-dict
+#Alt: goldendict
+#Alt: verbiste-gnome
+#gnome-dictionary # bookworm only
+
+#Section: Resources
+desktop-base
+papirus-icon-theme
+yaru-theme-gtk
+gnome-themes-extra
+sound-theme-freedesktop
+gnome-audio
+qt5-gtk-platformtheme
+#Alt: faenza-icon-theme
+#Alt: deepin-icon-theme
+#Alt: paper-icon-theme
+#Alt: mint-y-icons
+#Alt: arc-theme
+#clearlooks-phenix-theme # sid only
+#Alt: numix-gtk-theme
+#Alt: numix-icon-theme
+#Alt: numix-icon-theme-circle
+
+#Section: Virtual keyboards
+#Alt: onboard
+#Alt: onboard-data
+#Alt: deskflow
+#cellwriter # bullseye only
+#florence # sid only
+
+
+#Section: Other
+libnotify-bin
+numlockx
+x11-apps
+xbitmaps
+wmctrl
+xclip
+xcalib
+xbacklight
+gtk2-engines
+gtk2-engines-murrine
+gtk2-engines-pixbuf
+xdg-user-dirs-gtk
+libfile-mimeinfo-perl
+#Alt: zenity
+#Alt: conky-all
+#Alt: randtype
+#Alt: xdotool
+#Alt: wtype
+#policykit-1-gnome # bookworm only
+#winwrangler # bookworm only
