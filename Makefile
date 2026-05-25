@@ -4,7 +4,7 @@
 SHELL := /bin/bash
 LAST_TAG := $(shell git describe --tags --abbrev=0)
 LIBVIRT_STORAGE_PATH := /var/lib/libvirt/images/
-ISO_NAME := debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso
+ISO_NAME := NyarchGnome-$(LAST_TAG)-debian-bookworm-amd64.iso
 MAINTAINER_EMAIL ?= nodiscc@gmail.com
 
 # remove 'download_extra' to build without third party software/dotfiles
@@ -42,11 +42,11 @@ bump_version:
 	@sed -i "/^version =/s/= '.*'/= '$(LAST_TAG)'/" doc/md/conf.py || exit 1
 	@sed -i "/^release =/s/= '.*'/= '$(LAST_TAG)'/" doc/md/conf.py || exit 1
 	@echo "  - config/bootloaders/grub-pc/live-theme/theme.txt"
-	@sed -i "s/title-text: \"debian-live-config \([0-9.]*\)\"/title-text: \"debian-live-config $(LAST_TAG)\"/" config/bootloaders/grub-pc/live-theme/theme.txt || exit 1
+	@sed -i "s/title-text: \"debian-live-config \([0-9.]*\)\"/title-text: \"NyarchGnome-$(LAST_TAG)-debian-bookworm\"/" config/bootloaders/grub-pc/live-theme/theme.txt || exit 1
 	@echo "  - config/bootloaders/isolinux/live.cfg.in"
-	@sed -i "s/\(menu title debian-live-config \)[0-9.]*/\1$(LAST_TAG)/" config/bootloaders/isolinux/live.cfg.in || exit 1
+	@sed -i "s/\(menu title NyarchGnome-$(LAST_TAG)-debian-bookworm \)[0-9.]*/\1$(LAST_TAG)/" config/bootloaders/isolinux/live.cfg.in || exit 1
 	@echo "  - config/bootloaders/isolinux/menu.cfg"
-	@sed -i "s/\(menu title debian-live-config \)[0-9.]*/\1$(LAST_TAG)/" config/bootloaders/isolinux/menu.cfg || exit 1
+	@sed -i "s/\(menu title NyarchGnome-$(LAST_TAG)-debian-bookworm \)[0-9.]*/\1$(LAST_TAG)/" config/bootloaders/isolinux/menu.cfg || exit 1
 	@echo "  - auto/config"
 	@sed -i "s/\(--iso-volume debian-live-config-\)[0-9.]*/\1$(LAST_TAG)/" auto/config || exit 1
 	@echo "  - doc/md/download-and-installation.md"
@@ -65,7 +65,7 @@ checksums:
 	@mkdir -p iso/
 	mv *.iso iso/
 	cd iso/ && \
-	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-trixie/" * && \
+	rename "s/live-image/NyarchGnome-$(LAST_TAG)-debian-bookworm/" * && \
 	rename "s/.hybrid.iso/.iso/" * && \
 	sha512sum *.iso > SHA512SUMS
 

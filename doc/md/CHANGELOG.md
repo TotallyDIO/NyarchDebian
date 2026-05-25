@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/5.0.0) - 2026-03-01
 
-**[Download ISO image](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso)**
+**[Download ISO image](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-bookworm-amd64.iso)**
 
 ### Added
 
@@ -15,10 +15,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Changed
 
-* **rebase on [Debian 13 "Trixie"](https://www.debian.org/News/2025/20250809)**
-* system: replace [gnome-packagekit](https://packages.debian.org/trixie/gnome-packagekit) with [gnome-software](https://packages.debian.org/trixie/gnome-software) as main graphical package management/update tool
-* utility: replace [file-roller](https://packages.debian.org/trixie/file-roller) with [engrampa](https://packages.debian.org/trixie/engrampa) as archive manager
-* network: replace [transmission](https://packages.debian.org/trixie/transmission-gtk) with [qbittorrent](https://packages.debian.org/trixie/qbittorrent) bittorrent client
+* **rebase on [Debian 13 "bookworm"](https://www.debian.org/News/2025/20250809)**
+* system: replace [gnome-packagekit](https://packages.debian.org/bookworm/gnome-packagekit) with [gnome-software](https://packages.debian.org/bookworm/gnome-software) as main graphical package management/update tool
+* utility: replace [file-roller](https://packages.debian.org/bookworm/file-roller) with [engrampa](https://packages.debian.org/bookworm/engrampa) as archive manager
+* network: replace [transmission](https://packages.debian.org/bookworm/transmission-gtk) with [qbittorrent](https://packages.debian.org/bookworm/qbittorrent) bittorrent client
 * power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
 * desktop/xfwm4: disable zooming with Alt+mouse wheel by default
 * desktop/xfce4-panel: set panel height to 32px and enable the dark theme
@@ -50,11 +50,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Removed
 
-* packages: system: remove [debsecan](https://packages.debian.org/trixie/debsecan)
-* packages: system: remove [synaptic](https://packages.debian.org/trixie/synaptic)
-* packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)
-* packages: utility: remove [gcolor3](https://packages.debian.org/trixie/gcolor3) color picker (does not work)
-* packages: remove [bumblebee](https://packages.debian.org/trixie/bumblebee) (NVIDIA Optimus support)
+* packages: system: remove [debsecan](https://packages.debian.org/bookworm/debsecan)
+* packages: system: remove [synaptic](https://packages.debian.org/bookworm/synaptic)
+* packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/bookworm/libdvd-pkg)
+* packages: utility: remove [gcolor3](https://packages.debian.org/bookworm/gcolor3) color picker (does not work)
+* packages: remove [bumblebee](https://packages.debian.org/bookworm/bumblebee) (NVIDIA Optimus support)
 * packages: remove legacy plymouth-x11 renderer
 * extras: remove [cookie-autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/) firefox extension
 * drop incomplete support for 32-bit builds

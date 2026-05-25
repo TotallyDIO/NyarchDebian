@@ -10,14 +10,14 @@
 
 ## Download
 
-**[![](download.png) Download](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso)** the latest ISO image
+**[![](download.png) Download](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-bookworm-amd64.iso)** the latest ISO image
 
 <details>
 <summary>(Recommended) verify file integrity and authenticity of the ISO image with GPG:</summary>
 
 ```bash
 # download the iso, signing key, checksums and signature
-wget https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso
+wget https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-bookworm-amd64.iso
 wget https://github.com/nodiscc/debian-live-config/releases/download/5.0.0/debian-live-config-release.key
 wget https://github.com/nodiscc/debian-live-config/releases/download/5.0.0/SHA512SUMS
 wget https://github.com/nodiscc/debian-live-config/releases/download/5.0.0/SHA512SUMS.sign
@@ -37,7 +37,7 @@ sha512sum -c SHA512SUMS
 ### To USB - From Linux
 
   * Insert a 2GB+ USB drive
-  * Right-click the ISO image file, and click `Open with ... > Disk image writer` (requires [gnome-disks](https://packages.debian.org/trixie/gnome-disk-utility)) **Caution, all data on the USB drive will be erased**
+  * Right-click the ISO image file, and click `Open with ... > Disk image writer` (requires [gnome-disks](https://packages.debian.org/bookworm/gnome-disk-utility)) **Caution, all data on the USB drive will be erased**
   * Or, using the command line: Identify your USB drive device name (eg. `/dev/sdc`) using the `lsblk` command; Write the ISO image to the drive using `sudo dd /path/to/live-image.iso /dev/sdXXX`.
 
 ![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/1fYOBty.png)
