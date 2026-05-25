@@ -24,7 +24,7 @@ lb config noauto \
 --firmware-binary true \
 --firmware-chroot true \
 --initramfs live-boot \
---iso-publisher debian-live-config \
+--iso-publisher NyarchLinux \
 --iso-volume debian-live-config-5.0.0 \
 --linux-packages "linux-image linux-headers" \
 --bootappend-live "boot=live config splash" \
