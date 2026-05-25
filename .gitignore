@@ -14,3 +14,4 @@ config/chroot
 config/common
 *.duc-index
 iso/
+.lock
