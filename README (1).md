@@ -1,4 +1,6 @@
-# debian-live-config
+# **THIS IS FROM THE THING I STOLE, NOThING HERE IS NYARCH RELATED!!!!!**
+
+ debian-live-config
 
 [![](https://gitlab.com/nodiscc/debian-live-config/badges/master/pipeline.svg)](https://gitlab.com/nodiscc/debian-live-config/-/pipelines)
 
